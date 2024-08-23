@@ -22,7 +22,7 @@ class ProductForm(forms.ModelForm):
             "name": forms.TextInput(
                 attrs={"placeholder": "e.g. shirt", "class": "form-control"}
             ),
-            "sku": forms.NumberInput(
+            "sku": forms.TextInput(
                 attrs={"placeholder": "e.g. S12345", "class": "form-control"}
             ),
             "price": forms.NumberInput(
